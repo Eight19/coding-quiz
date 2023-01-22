@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <Title>Software Development Code Quiz</Title>
+    </head>
+<body> 
+    <header>
+        <!--Added clock to start page-->
+        <h1>Software Development Code Quiz <span id="time"></span></h1>
+    </header>
+    <main id="quizContainer">
+    <section id="startScreen">
+        <h2>Quiz Instructions</h2>
+        <p>
+            <ol>
+                <li>The timer will start once the quiz begins.</li>
+                <li>The quiz ends once all questions have been answered or the time stops.</li>
+                <li>There are 5 questions and points are deducted for each incorrect answer.</li>
+                <li>Your initials and score are recorded at the end of the quiz.</li>
+            </ol>
+        </p>
+        <button id="startBtn">Start</button>
+    </section>
+    <section id="quizScreen">
+        <h2></h2>
+        <div id="buttonContainer">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+    </section>
+    <section id="endScreen">
+        <h2>Quiz Ended!</h2>
+        <p>Your Score is: <span id="scoreLabel">87</span></p>
+        <input id="initials" placeholder="Enter Initials" />
+        <button id="enterScore">Enter</button>
+    </section>
+    <section id="topScoreScreen">
+        <h2>Top Scores</h2>
+        <ul>
+        </ul>
+        <button id="retakeQuiz">Retake Quiz?</button>
+    </section>
+    </main>
+    <script src="./script.js"></script>
+    <script src="./Assets/js/script.js"></script> 
+</body>
+</html>
