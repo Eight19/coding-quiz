@@ -4,6 +4,7 @@
 
 
 ## Description | This is a timed coding quiz specific to Software Development. 
+The quiz can be accessed at  https://eight19.github.io/software-development-coding-quiz/.
 
 
 
